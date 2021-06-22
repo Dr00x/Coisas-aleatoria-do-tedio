@@ -1,5 +1,4 @@
 from random import randint, choice
-from GerarCodigos import GenerateCode
 
 word = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 quantidade = int(input('Quantas letrar tera a senha?\n>:'))
@@ -14,5 +13,4 @@ while i < quantidade:
     if randint(0,20) <= 7:
         q = q.lower()
 
-GenerateCode(True,30,"Processamento completo sua senha é:\n")
 print(q)
