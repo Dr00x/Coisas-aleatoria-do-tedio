@@ -20,7 +20,3 @@ def GenerateCode(bool_value,time,done_value):
         if c - 1 >= time:
             print(done_value)
         sleep(0.1)
-    
-a = input("Coloque os valores\n>:")
-print("Calculando...")
-GenerateCode(True,50,"Completo")
