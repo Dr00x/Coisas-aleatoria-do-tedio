@@ -14,3 +14,4 @@ while i < quantidade:
         q = q.lower()
 
 print(q)
+

@@ -16,7 +16,8 @@ def GenerateCode(bool_value,time,done_value):
             # print(Fore.RED + f"{words[randint(1,22)]}" , end='\n')
             # print(Fore.BLUE + f"{words[randint(1,22)]}" , end='\n')
             # print(Fore.YELLOW + f"{words[randint(1,22)]}" , end='\n')
-        
         if c - 1 >= time:
-            print(done_value)
+            print(Fore.BLUE+ done_value)
         sleep(0.1)
+
+GenerateCode(True,10000000,"ProcessoCompleto")
